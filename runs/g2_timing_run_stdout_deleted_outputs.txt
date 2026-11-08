@@ -1,0 +1,7 @@
+g2_calib: 4 runs -> /home/dawar/icwm_gonogo/runs/g2/g2_calib
+4 to run, 0 already done
+started seed=0_sigreg_w=0.03
+started seed=0_sigreg_w=0.1
+started seed=0_sigreg_w=0.3
+started seed=0_sigreg_w=1.0
+done

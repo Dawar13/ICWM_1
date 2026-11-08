@@ -1,0 +1,10 @@
+=== g1_trap Sun Nov  8 14:13:12 IST 2026
+=== g1_trap Sun Nov  8 14:37:56 IST 2026
+g1_trap: 15 runs -> C:\Users\djtde\Downloads\ICWM_1\runs\g1\g1_trap
+13 to run, 2 already done
+done
+=== g1_dose Sun Nov  8 15:49:21 IST 2026
+g1_dose: 30 runs -> C:\Users\djtde\Downloads\ICWM_1\runs\g1\g1_dose
+30 to run, 0 already done
+done
+=== g1_objective Sun Nov  8 16:57:38 IST 2026

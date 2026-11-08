@@ -1,0 +1,7 @@
+{
+ "agent_mode": "set",
+ "n_dist": 2,
+ "d": 16,
+ "sigreg_w": 0.03,
+ "steps": 15000
+}

@@ -1,0 +1,52 @@
+{
+  "config": {
+    "env": {
+      "img": 64,
+      "agent_mode": "integrator",
+      "agent_r": 2.5,
+      "agent_speed": 0.04,
+      "set_span": 0.35,
+      "n_echo": 0,
+      "n_dist": 2,
+      "dist_r": 5.0,
+      "dist_speed": 0.03,
+      "phi": 0.0,
+      "act_std": 0.5,
+      "bg_amp": 0.3,
+      "soft": 0.6,
+      "margin": 0.06
+    },
+    "train": {
+      "d": 32,
+      "h": 1,
+      "enc_width": 32,
+      "hdim": 256,
+      "cond": "film",
+      "act_init_scale": 1.0,
+      "enc_bn": true,
+      "reg": "sigreg",
+      "sigreg_w": 0.1,
+      "target_grad": true,
+      "ema_tau": 0.996,
+      "idm": "always",
+      "idm_w": 1.0,
+      "warmup_frac": 0.05,
+      "hist_dropout": 0.0,
+      "dataset_episodes": 2000,
+      "ep_len": 40,
+      "steps": 5000,
+      "batch": 128,
+      "lr": 0.0003,
+      "wd": 0.0,
+      "eval_every": 250,
+      "eval_n": 2048,
+      "seed": 0,
+      "max_mem_gb": 6.0,
+      "save_ckpt": true
+    }
+  },
+  "config_hash": "3fa7ed1458",
+  "code_hash": "f1da5d74637e",
+  "host": "netan-private-instance-taken-approval-002",
+  "start_unix": 1794127488.4295125
+}

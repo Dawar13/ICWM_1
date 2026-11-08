@@ -1,0 +1,6 @@
+
+## G2 reproduce ladder  (code f1da5d74637e)
+('set', 2, 16): vanilla -0.016, IDM-always 1.000
+
+**VERDICT: CHOSEN {'agent_mode': 'set', 'n_dist': 2, 'd': 16, 'sigreg_w': 0.03, 'steps': 15000} (written to runs/g2/CHOSEN_CONFIG.json)**
+

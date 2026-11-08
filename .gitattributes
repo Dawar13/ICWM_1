@@ -1,0 +1,19 @@
+# Keep LF line endings in the repository and in the working tree for files that also run on the
+# Linux A100 host (a CRLF in setup.sh or a .py file breaks it there). core.autocrlf is on for this clone.
+* text=auto
+*.py    text eol=lf
+*.sh    text eol=lf
+*.md    text eol=lf
+*.txt   text eol=lf
+*.json  text eol=lf
+*.jsonl text eol=lf
+*.csv   text eol=lf
+*.yaml  text eol=lf
+*.yml   text eol=lf
+
+# Binary files
+*.pt    binary
+*.pdf   binary
+*.png   binary
+*.jpg   binary
+*.zip   binary

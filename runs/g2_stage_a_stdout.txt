@@ -1,0 +1,51 @@
+=== g2_calib Sun Nov  8 08:44:40 UTC 2026
+g2_calib: 4 runs -> /home/dawar/icwm_gonogo/runs/g2/g2_calib
+4 to run, 0 already done
+started seed=0_sigreg_w=0.03
+started seed=0_sigreg_w=0.1
+started seed=0_sigreg_w=0.3
+started seed=0_sigreg_w=1.0
+done
+
+## G2 calibration (whitening only)  (code f1da5d74637e)
+sigreg_w 0.03: cov_err 0.080, z_var 30.4 (d=32) -> ok
+sigreg_w 0.1: cov_err 0.040, z_var 30.2 (d=32) -> ok
+sigreg_w 0.3: cov_err 0.040, z_var 31.4 (d=32) -> ok
+sigreg_w 1.0: cov_err 0.034, z_var 31.2 (d=32) -> ok
+
+**VERDICT: CHOOSE sigreg_w = 0.03**
+
+chosen sigreg_w=0.03
+=== g2_reproduce Sun Nov  8 08:49:50 UTC 2026
+g2_reproduce: 16 runs -> /home/dawar/icwm_gonogo/runs/g2/g2_reproduce
+16 to run, 0 already done
+started idm=none_seed=0
+started idm=always_seed=0
+started idm=none_seed=0
+started idm=always_seed=0
+started idm=none_seed=0
+started idm=always_seed=0
+waiting: only 9.6 GB free on the shared GPU
+started idm=none_seed=0
+started idm=always_seed=0
+waiting: only 9.5 GB free on the shared GPU
+waiting: only 9.5 GB free on the shared GPU
+waiting: only 9.5 GB free on the shared GPU
+waiting: only 9.5 GB free on the shared GPU
+waiting: only 9.5 GB free on the shared GPU
+started idm=none_seed=0
+started idm=always_seed=0
+started idm=none_seed=0
+started idm=always_seed=0
+started idm=none_seed=0
+started idm=always_seed=0
+started idm=none_seed=0
+started idm=always_seed=0
+done
+
+## G2 reproduce ladder  (code f1da5d74637e)
+('set', 2, 16): vanilla -0.016, IDM-always 1.000
+
+**VERDICT: CHOSEN {'agent_mode': 'set', 'n_dist': 2, 'd': 16, 'sigreg_w': 0.03, 'steps': 15000} (written to runs/g2/CHOSEN_CONFIG.json)**
+
+=== STAGE A DONE Sun Nov  8 09:00:52 UTC 2026
